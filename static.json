@@ -5,7 +5,6 @@
     "error": "warn"
   },
   "routes": {
-    "/**": "index.html",
     "/*.html": "index.html",
     "/twba/**": "twba.html"
   },
