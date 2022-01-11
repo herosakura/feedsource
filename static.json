@@ -1,0 +1,13 @@
+{
+  "root": "public_html/",
+  "logging": {
+    "access": false,
+    "error": "warn"
+  },
+  "routes": {
+    "/**": "index.html",
+    "/*.html": "index.html",
+    "/twba/**": "twba.html"
+  },
+  "https_only": true
+}
